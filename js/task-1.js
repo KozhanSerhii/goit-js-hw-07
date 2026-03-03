@@ -10,6 +10,6 @@ for (const element of items) {
 
     const totalAmount = element.querySelectorAll("li").length;
 
-    console.log(`Category: ${topic}t`);
+    console.log(`Category: ${topic}`);
     console.log(`Elements: ${totalAmount}`);
 }

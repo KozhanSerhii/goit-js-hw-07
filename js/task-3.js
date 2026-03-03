@@ -5,7 +5,7 @@ const change = (event) => {
     if (event.target.value.trim() === "") {
         ass.textContent = "Anonymous";
     } else {
-         ass.textContent = event.currentTarget.value;
+         ass.textContent = event.currentTarget.value.trim();
 
     }
 };
